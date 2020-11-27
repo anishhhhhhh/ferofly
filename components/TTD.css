@@ -1,0 +1,66 @@
+.TTD {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 150px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.firstRow1 {
+  margin-bottom: 0;
+}
+.secondRow1 {
+  padding-top: 20px;
+}
+.firstRow1,
+.secondRow1 {
+  display: flex;
+}
+.parall {
+  width: 100%;
+  margin: 0 auto;
+  /* The image used */
+  background-image: url("https://dammedia.ledvance.info/media/img/asset-4086347//c,x,0,y,1058,w,4165,h,2342/s,x,1600,y,0/iStock-185270129.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+}
+.rooms {
+  background-color: white;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.rooms p {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.rooms button {
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 990px) {
+  .TTD {
+    width: 90%;
+  }
+}

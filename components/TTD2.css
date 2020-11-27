@@ -1,0 +1,15 @@
+.TTD2 p {
+  padding-top: 70px;
+  font-size: 18px;
+}
+.TTD2 .para {
+  padding-top: 0;
+}
+
+.title {
+  font-weight: 600;
+}
+.para {
+  width: 80%;
+  margin: 0 auto;
+}

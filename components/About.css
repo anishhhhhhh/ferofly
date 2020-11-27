@@ -1,0 +1,72 @@
+.about {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 150px;
+}
+.about .head {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.about h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 15px;
+  color: grey;
+}
+.paralla {
+  width: 950px;
+  margin: 0 auto;
+  /* The image used */
+  background-image: url("https://cdn.hipwallpaper.com/i/3/93/undLVt.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+}
+
+.rooms {
+  background-color: white;
+  width: 400px !important;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.rooms p {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.rooms button {
+  margin-bottom: 25px;
+  background-color: white;
+  color: black;
+  border: 1px solid black !important;
+}
+.rooms button:hover {
+  background-color: black !important;
+  color: white;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 990px) {
+  .paralla {
+    width: 90%;
+  }
+  .about .head {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .rooms {
+    width: 90% !important;
+  }
+}
